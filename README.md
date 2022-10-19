@@ -5,7 +5,9 @@
 ![Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=ArminJo_iButtonProgrammer)
 
 
-The program reads an **[iButton / Dallas key](https://en.wikipedia.org/wiki/1-Wire)** and writes a constant value if receiving "w" over Serial.<br/>
+The program reads an **[iButton / Dallas key](https://en.wikipedia.org/wiki/1-Wire)** ID.<br/>
+If receiving "w" over Serial, it writes a constant value.<br/>
+If receiving "c" over Serial, it clones the ID previously read from another iButton.<br/>
 Writing was successfully tested with RW1990 ones.
 
 # Sample serial monitor output
